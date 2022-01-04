@@ -8,7 +8,7 @@ h1{
 .u-name{
     color: orange;
 }
-section{
+.flex{
     display: flex;
 }
 /* .header-c{
@@ -25,7 +25,7 @@ section{
 .hireme-b{
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
-    padding: 10px, 50px;
+    padding: 10px 50px;
     border-radius: 5px;
     color: white;
     font-weight: 700;
@@ -34,4 +34,38 @@ section{
 .banner{
     background-image: url(images/images/top-banner.png);
     background-repeat: no-repeat;
+    margin-bottom: 150px;
+}
+.about{
+    background-image: url(images/images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-bottom: 150px;
+}
+.exp-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 150px;
+    padding-left: 25px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
+.exp{
+    background-image: url(images/images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#item2{
+    border-left: 6px solid;
+    border-image: linear-gradient(blue , cyan);
+    border-image-slice: 1;
+}
+#item1{
+    border-left: 6px solid;
+    border-image:linear-gradient(salmon , tomato);
+    border-image-slice: 1;
+}
+#footer{
+    text-align: center;
 }
